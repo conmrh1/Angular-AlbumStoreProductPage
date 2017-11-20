@@ -1,11 +1,11 @@
 <div class="row description">
   <div class="col-sm-2">
     Image:
-    <img src={{albumInfo.album.coverImage}} alt="product image" />
+    <img src="{{albumInfo?.album.coverImage}}" alt="product image" />
   </div>
   <div class="col-sm-6">
     Name: <p class="album-name">{{albumInfo?.album.name}}</p>
-    Artist: <p class="band-name"> {{albumInfo?.album.artist}}</p>
+    Artist: <p class="band-name"> {{albumInfo?.artist}}</p>
     Release Dt:<p class="album-release-date">{{albumInfo?.album.releaseDate}}</p>
   </div>
 </div>
