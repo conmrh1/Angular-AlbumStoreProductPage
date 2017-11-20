@@ -3,4 +3,6 @@ p {font-size: 16px;
    font-weight: normal;
  }
 
- img<src="idontknow.gif">
+ img{
+     width: 100%;
+ }
