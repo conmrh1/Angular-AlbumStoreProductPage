@@ -15,7 +15,8 @@ export class ProductTracklistingComponent implements OnInit {
   constructor(private _productService: ProductService) { }
 
   ngOnInit() {
-    return this._productService.getAlbum(1).subscribe(response => this.albumInfo = response])
+    return this._productService.getAlbum(1).subscribe(response => this.albumInfo = response);
+    
   }
 
 }
